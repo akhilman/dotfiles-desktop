@@ -10,6 +10,7 @@ window decoration {
 
 
 headerbar {
+  border-width: 0;
   border-color: @theme_selected_bg_color ; }
   headerbar:backdrop {
     border-color: @theme_bg_color; }
