@@ -1,8 +1,0 @@
-@import url("decoration.css");
-
-/* smaller toolbar buttons */
-
-.toolbar .button, .primary-toolbar .button
-{
-padding:        2px 4px;
-}
