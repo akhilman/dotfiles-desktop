@@ -13,6 +13,9 @@ color: black;
 input[type="text"] {
 -moz-appearance: none !important;
 }
+input[type="search"] {
+-moz-appearance: none !important;
+}
 textarea {
 border: 2px inset white;
 background-color: white;
