@@ -1,3 +1,11 @@
 *
-**/*
-!/.gitignore/dotfiles-gnome
+!/.gitignore/dotfiles-desktop
+!/.config
+!/.config/kitty
+!/.config/kitty/*
+!/.config/yazi
+!/.config/yazi/*
+!/.local
+!/.local/bin
+!/.local/bin/available-desktop
+!/.local/bin/available-desktop/*
