@@ -1,0 +1,13 @@
+theme = Adwaita Dark
+# gtk-tabs-location = hidden
+font-family = "Source Code Pro"
+
+keybind = clear
+keybind = ctrl+shift+c=copy_to_clipboard
+keybind = ctrl+shift+v=paste_from_clipboard
+keybind = ctrl+shift+t=new_tab
+keybind = ctrl+shift+w=close_tab
+keybind = ctrl+shift+right=next_tab
+keybind = ctrl+shift+left=previous_tab
+keybind = ctrl+shift+n=new_window
+keybind = ctrl+shift+r=reload_config
