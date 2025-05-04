@@ -1,7 +1,7 @@
 theme = Adwaita Dark
 # gtk-tabs-location = hidden
 font-family = "Sorce Code Pro"
-font-size = 11.5
+font-size = 11
 
 keybind = clear
 keybind = ctrl+shift+c=copy_to_clipboard
