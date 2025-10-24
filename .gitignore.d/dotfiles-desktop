@@ -11,3 +11,5 @@
 !/.local/bin
 !/.local/bin/available-desktop
 !/.local/bin/available-desktop/*
+!/.local/bin/scripts-desktop
+!/.local/bin/scripts-desktop/*
