@@ -1,9 +1,18 @@
-[[plugin.prepend_fetchers]]
-id   = "git"
-name = "*"
-run  = "git"
+[[opener.viu]]
+run = "viu %s; read -n1"
+block = true
+desc = "View image in terminal"
+
+[[open.prepend_rules]]
+mime = "image/*"
+use = ["viu", "open", "reveal"]
 
 [[plugin.prepend_fetchers]]
-id   = "git"
-name = "*/"
-run  = "git"
+url   = "*"
+run   = "git"
+group = "git"
+
+[[plugin.prepend_fetchers]]
+url   = "*/"
+run   = "git"
+group = "git"

@@ -1,4 +1,2 @@
 [flavor]
-# dark = "catppuccin-frappe"
-# dark = "dracula"
-dark = "kanagawa"
+dark = "catppuccin-frappe"
