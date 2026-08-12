@@ -3,10 +3,11 @@
 TERM=xterm
 PROGARG=-e
 
-if command -v ghostty > /dev/null 2>&1; then
-	TERM=ghostty
-elif command -v kitty > /dev/null 2>&1; then
+if command -v kitty > /dev/null 2>&1; then
 	TERM=kitty
+	PROGARG=
+elif command -v ghostty > /dev/null 2>&1; then
+	TERM=ghostty
 elif command -v alacritty > /dev/null 2>&1; then
 	TERM=alacritty
 else
